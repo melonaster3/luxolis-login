@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Luxolis Simple Login Page
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -45,26 +45,26 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Login Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Built with
 
-### Analyzing the Bundle Size
+- Javascript
+- React
+- Bootstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Info
 
-### Making a Progressive Web App
+Username is hardcoded to be test@luxpmsoft.com
+Password is hardcoded to be test1234!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Requirements
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Please go to the following link (https://www.figma.com/file/YyNs6VBdwMUwdPdYUfXqXl/Login-Page-design-(Community)?type=design&node-id=0-1&t=Rf3cWEMKXdqybI3y-0）
+2. Please make the page responsive
+3. Create a dummy hardcoded test account in the frontend - username: test@luxpmsoft.com / Password: test1234!
+4. For the incorrect password, please show a pop-up window with a message, "the provided password is wrong"
+5. Please only accept a combination of letters, numbers and special character. If the user does not provide the right combination of the password, please show an alert message right below the inputfield. The alert message should be "Wrong combination"
+6. The login should only work with this account since there is no integration with the backend.
+7. Leave the page after the login blank.
+8. Please provide us with a github link to the repository for the test and let us know of your desired salary. We do check for the clean code. So, please make sure that your code is neat.
