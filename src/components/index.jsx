@@ -45,10 +45,10 @@ export function MainLayout(props) {
       }
       <div className="Main">
         <div>
-          <img className="cart" src={"/cart.svg"} />
+          <img className="cart" src={"/cart.svg"} alt="Cart" />
         </div>
         <div className="inputsUserName">
-          <img className="inputIcon" src={"/user.svg"} />
+          <img className="inputIcon" src={"/user.svg"} alt="user" />
           <input
             autocomplete="one-time-code"
             className="styleInput"
@@ -59,7 +59,7 @@ export function MainLayout(props) {
           ></input>
         </div>
         <div className="inputsPassword">
-          <img className="inputIcon" src={"/lock.svg"} />
+          <img className="inputIcon" src={"/lock.svg"} alt="lock" />
           <input
             autocomplete="one-time-code"
             className="styleInput"
