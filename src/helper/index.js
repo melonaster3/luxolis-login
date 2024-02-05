@@ -12,7 +12,7 @@ const checkPwd = (str) => {
   }
   return "ok"; // Return 'ok' if the password meets all requirements
 };
-
+//asdasdasdasdasd
 export function validateCredentials(
   password,
   id,
